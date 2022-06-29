@@ -1,3 +1,5 @@
 gitea_home/*
 jenkins_home/*
 nexus_home/*
+postgresql_home/*
+sonarqube_home/*
