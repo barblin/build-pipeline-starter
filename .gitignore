@@ -3,4 +3,10 @@ jenkins_home/*
 nexus_home/*
 postgresql_home/*
 sonarqube_home/*
-!gitea_home/git/repositories/barblin/jenkins-shared-library.git/
+!gitea_home/git
+gitea_home/git/*
+!gitea_home/git/repositories
+gitea_home/git/repositories/*
+!gitea_home/git/repositories/barblin
+gitea_home/git/repositories/barblin/*
+!gitea_home/git/repositories/barblin/jenkins-shared-library.git
