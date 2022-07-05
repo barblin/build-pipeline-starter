@@ -9,8 +9,7 @@ It contains an instance of each:
 - Sonarqube (quality analysis and quality gate)
 - trafik (firewall and server proxy)
 
-As of now, trafik is not included yet. At the end
-Of this starter, each of these services should be aware of each other and the pipeline should work out of the box.
+At the end of this starter, each of these services should be aware of each other and the pipeline should work out of the box.
 
 gitea will contain an examplatory project and Jenkins will contain a build pipeline for that 
 
