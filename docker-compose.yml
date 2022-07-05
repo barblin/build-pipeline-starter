@@ -119,7 +119,6 @@ services:
       - "./letsencrypt:/letsencrypt"
     networks:
       - default
-      - public_bridge
  
 
 volumes:
@@ -127,8 +126,3 @@ volumes:
 networks:
   gitea:
     external: false
-  default:
-    external:
-      name: web
-  public_bridge:
-    external: true
